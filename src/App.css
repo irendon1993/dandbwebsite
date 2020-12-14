@@ -1,14 +1,34 @@
+header {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 li {
   list-style: none;
+  display: flex;
 }
 
+.contactDiv {
+  display: flex;
+  
+}
 
+.contact {
+  border: solid blue;
+  border-radius: 10%;
+}
+
+p {
+  padding-left: 10px;
+}
 .App {
   text-align: center;
 }

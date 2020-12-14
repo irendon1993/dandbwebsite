@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import IconContact from './Icons/IconContact.svg';
+import cmm from './Images/ImageCMM.png';
+import kanban from './Images/ImageKanban.jpg';
 
 function App() {
   return (
@@ -19,12 +22,12 @@ function App() {
            <li>
              Quality
            </li>
-           <li>
-             <div>
-               <figure>
-                
-               </figure>
-               <p>Contact Us</p>
+           <li className="contact">
+             <div >
+               <div className="contactDiv">
+                <img src={IconContact}/>
+                <p>Contact Us</p>
+               </div>
                <p>941-123-4567</p>
              </div>
            </li>
