@@ -51,8 +51,8 @@ li {
   height: 80px;
   width: 150px;
   background-color: #279FEA;
-  
-  border-radius: 10%;
+  margin-right: 10px;
+  border-radius: 5%;
   align-items: center;
   justify-content: center;
 }
@@ -63,7 +63,9 @@ p {
   padding-left: 10px;
   margin: 0;
   color: white;
+  font-size: 1.5em;
 }
+
 .App {
   text-align: center;
 }
