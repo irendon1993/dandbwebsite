@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Logo from './Logos/DBdesktopCopy.jpg'
+import IconHome from './Icons/IconHome.svg';
+import IconAbout from './Icons/IconAbout.svg';
+import IconSolutions from './Icons/IconSolutions.svg';
+import IconQuality from './Icons/IconQuality.svg';
 import IconContact from './Icons/IconContact.svg';
-import cmm from './Images/ImageCMM.png';
-import kanban from './Images/ImageKanban.jpg';
+
+
 
 function App() {
   return (
@@ -11,16 +16,20 @@ function App() {
        <nav>
          <ul>
            <li>
-             Home
+             <img src={Logo} height="100 px"/>
            </li>
            <li>
-             About
+             <div className="home"><img src={IconHome} /><p>Home</p></div>
            </li>
            <li>
-             Solutions
+             <div className="about"><img src ={IconAbout}/><p>About</p></div>
            </li>
            <li>
-             Quality
+             <div className="solutions"><img src={IconSolutions}/><p>Solutions</p></div>
+             </li>
+           <li>
+             <div className="quality"><img src={IconQuality}/><p>Quality</p></div>
+             
            </li>
            <li className="contact">
              <div >

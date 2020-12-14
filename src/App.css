@@ -1,6 +1,11 @@
 header {
   padding-left: 40px;
   padding-right: 40px;
+  color: #07406B;
+}
+
+nav {
+  background-color: #07406B;
 }
 
 ul {
@@ -18,16 +23,46 @@ li {
 
 .contactDiv {
   display: flex;
+  align-items: center;
   
 }
 
-.contact {
-  border: solid blue;
-  border-radius: 10%;
+.home {
+  display: flex;
+  flex-direction: row;
 }
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.solutions {
+  display: flex;
+  flex-direction: row;
+}
+
+.quality {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
+  height: 80px;
+  width: 150px;
+  background-color: #279FEA;
+  
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 p {
   padding-left: 10px;
+  margin: 0;
+  color: white;
 }
 .App {
   text-align: center;
