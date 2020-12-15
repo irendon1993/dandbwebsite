@@ -9,38 +9,37 @@ import IconContact from '../Icons/IconContact.svg';
 
 export function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
+      <div className="header">
         <nav>
           <ul>
             <li>
               <img src={Logo} height="100 px" />
             </li>
             <li>
-              <div className="navItem"><img src={IconHome} /><p>Home</p></div>
+              <div className="navItem"><img src={IconHome} /><h3>Home</h3></div>
             </li>
             <li>
-              <div className="navItem"><img src={IconAbout} /><p>About</p></div>
+              <div className="navItem"><img src={IconAbout} /><h3>About</h3></div>
             </li>
             <li>
-              <div className="navItem"><img src={IconSolutions} /><p>Solutions</p></div>
+              <div className="navItem"><img src={IconSolutions} /><h3>Solutions</h3></div>
             </li>
             <li>
-              <div className="navItem"><img src={IconQuality} /><p>Quality</p></div>
+              <div className="navItem"><img src={IconQuality} /><h3>Quality</h3></div>
 
             </li>
             <li className="contact">
               <div>
                 <div className="contactDiv">
                   <img src={IconContact} />
-                  <p>Contact Us</p>
+                  <h4>Contact Us</h4>
                 </div>
-                <p>941-123-4567</p>
+                <h4>941-123-4567</h4>
               </div>
             </li>
           </ul>
         </nav>
-      </header>
-    </div>
+      </div>
+    
   );
 }

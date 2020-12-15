@@ -1,0 +1,26 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    .hero   {
+        padding-bottom: 60px;
+    }
+
+    .homeDivider {
+        background-color: #279FEA;
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        
+        
+        h2 {
+            
+            font-size: 64px;
+            color: white;
+            margin: 0;
+        }
+    }
+}
