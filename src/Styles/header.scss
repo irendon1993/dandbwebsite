@@ -64,6 +64,9 @@ header {
         justify-content: center;
     }
 
+    a:visited { text-decoration: none; color:#279FEA; }
+    a:hover { color:#07406B; }
+
     img {
         height: 40px;
     }
@@ -73,6 +76,20 @@ header {
     padding-left: 10px;
     margin: 0;
     
+  }
+
+  link {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a:visited { text-decoration: none; color:#07406B; }
+  a:hover { color:#279FEA; }
+  
+ 
+
+  button {
+    text-decoration: none;
   }
   
 }

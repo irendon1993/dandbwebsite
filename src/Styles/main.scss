@@ -31,6 +31,20 @@ main {
     color: white;
     
   }
+
+  link {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a:visited { text-decoration: none; color:red; }
+  a:hover { text-decoration: none; color:blue; }
+  a:focus { text-decoration: none; color:yellow; }
+  a:hover, a:active { text-decoration: none; color:black }
+
+  button {
+    text-decoration: none;
+  }
 }
 
 

@@ -16,19 +16,23 @@ export function Header() {
               <img src={Logo} height="100 px" />
             </li>
             <li>
-              <div className="navItem"><img src={IconHome} /><h3>Home</h3></div>
+              <div className="navItem"><img src={IconHome} /><Link to="/"><h3>Home</h3></Link></div>
+            </li>
+            
+              <li>
+                <div className="navItem"><img src={IconAbout} /><Link to="/about"><h3>About</h3></Link></div>
+              </li>
+            
+            
+            <li>
+              <div className="navItem"><img src={IconSolutions} /><Link to="solutions"><h3>Solutions</h3></Link></div>
             </li>
             <li>
-              <div className="navItem"><img src={IconAbout} /><h3>About</h3></div>
-            </li>
-            <li>
-              <div className="navItem"><img src={IconSolutions} /><h3>Solutions</h3></div>
-            </li>
-            <li>
-              <div className="navItem"><img src={IconQuality} /><h3>Quality</h3></div>
+              <div className="navItem"><img src={IconQuality} /><Link><h3>Quality</h3></Link></div>
 
             </li>
             <li className="contact">
+              <Link to="/contact">
               <div>
                 <div className="contactDiv">
                   <img src={IconContact} />
@@ -36,6 +40,7 @@ export function Header() {
                 </div>
                 <h4>941-123-4567</h4>
               </div>
+              </Link>
             </li>
           </ul>
         </nav>
