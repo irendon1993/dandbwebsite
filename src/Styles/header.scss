@@ -30,13 +30,13 @@ header {
     align-items: center;
     display: flex;
     flex-direction: row;
+    
     h3 {
         padding-left: 5px;
         color: white;
         font-size: 1.5em;
     }
-   
-
+  
     img {
         height: 40px;
     }
@@ -54,7 +54,6 @@ header {
     .contactDiv {
       display: flex;
       align-items: center;
-      
     }
 
     h4 {
@@ -75,12 +74,11 @@ header {
     span {
       padding-left: 5px;
     }
-   }
+  }
       
   p {
     padding-left: 10px;
     margin: 0;
-    
   }
 
   link {
@@ -96,6 +94,5 @@ header {
   button {
     text-decoration: none;
   }
-  
 }
   

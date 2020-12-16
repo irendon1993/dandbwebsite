@@ -27,10 +27,10 @@ export function Header() {
             
             
             <li>
-              <div className="navItem"><img src={IconSolutions} /><Link to="solutions"><h3>Solutions</h3></Link></div>
+              <div className="navItem"><img src={IconSolutions} /><Link to="/solutions"><h3>Solutions</h3></Link></div>
             </li>
             <li>
-              <div className="navItem"><img src={IconQuality} /><Link><h3>Quality</h3></Link></div>
+              <div className="navItem"><img src={IconQuality} /><Link to="/quality"><h3>Quality</h3></Link></div>
 
             </li>
             <li className="contact">

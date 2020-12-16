@@ -1,6 +1,7 @@
 @import 'home';
 @import 'header';
 @import 'about';
+@import 'solutions';
 
 
 
@@ -27,12 +28,9 @@ main {
   align-items: center;
   background-color: #07406B;
 
-  h4 {
-    color: white;
-    
+    h4 {
+      color: white;  
   }
-
-  
 }
 
 
