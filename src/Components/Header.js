@@ -13,7 +13,9 @@ export function Header() {
         <nav>
           <ul>
             <li>
+              <Link to="/">
               <img src={Logo} height="100 px" />
+              </Link>
             </li>
             <li>
               <div className="navItem"><img src={IconHome} /><Link to="/"><h3>Home</h3></Link></div>
@@ -38,7 +40,7 @@ export function Header() {
                   <img src={IconContact} />
                   <h4>Contact Us</h4>
                 </div>
-                <h4>941-123-4567</h4>
+                <h4><span>941-123-4567</span></h4>
               </div>
               </Link>
             </li>
