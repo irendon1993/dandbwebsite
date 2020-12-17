@@ -33,6 +33,7 @@ export function Header() {
               <div className="navItem"><img src={IconQuality} /><Link to="/quality"><h3>Quality</h3></Link></div>
 
             </li>
+           
             <li className="contact">
               <Link to="/contact">
               <div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export function cnc() {
+export function Turning() {
     return(
         <div>
             test
