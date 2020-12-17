@@ -61,5 +61,125 @@
         }
     }
 
+    .instruments {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     
+
+        .keyence {
+            padding-top: 5%;
+            padding-bottom: 5%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            
+        
+            
+            .keyenceText {
+                width: 50%;
+
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:  #07406B;
+                }
+    
+                p {
+                    color:  #07406B;
+                    font-size: 27px;
+                }
+            }
+
+            .keyenceImage {
+                width: 50%;
+                
+                img {
+                    width: 100%;
+                    padding-left: 5%;
+                }
+            }
+        
+        }
+        .cmm {
+            padding-bottom: 5%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            
+        
+            
+            .cmmText {
+                width: 50%;
+
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:  #07406B;
+                }
+    
+                p {
+                    color:  #07406B;
+                    font-size: 27px;
+                }
+            }
+
+            .cmmImage {
+                width: 50%;
+                
+                img {
+                    width: 100%;
+                    padding-left: 5%;
+                }
+            }
+        
+        }
+
+        .measureLink {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            padding-bottom: 5%;
+            
+        
+            
+            .measureLinkText {
+                width: 50%;
+
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:  #07406B;
+                }
+    
+                p {
+                    color:  #07406B;
+                    font-size: 27px;
+                }
+            }
+
+            .measureLinkImage {
+                width: 50%;
+                
+                img {
+                    width: 100%;
+                    padding-left: 5%;
+                }
+            }
+        
+        }
+
+
+    }
 }
