@@ -99,5 +99,76 @@
             }
         }
     }
+
+    @media screen and (max-width: 1500px) {
+        .dnbTop {
+
+            .dnbText {
+            p {
+                font-size: 22px;
+                }
+            }
+        }
+
+        .dnbBottom {
+
+            .dnbSummary {
+                p {
+                    font-size: 22px;
+                }
+                
+            }
+        }
+    } 
+
+    @media screen and (max-width: 1200px) {
+        .dnbTop {
+
+            .dnbText {
+            p {
+                font-size: 18px;
+                }
+            }
+        }
+
+        .dnbBottom {
+
+            .dnbSummary {
+                p {
+                    font-size: 18px;
+                }
+                
+            }
+        }
+    } 
+
+    @media screen and (max-width: 900px) {
+        .dnbTop {
+            flex-direction: column;
+
+            .dnbImage {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .dnbText {
+                width: 100%;
+            p {
+                font-size: 18px;
+                }
+            }
+        }
+
+        .dnbBottom {
+
+            .dnbSummary {
+                p {
+                    font-size: 18px;
+                }
+                
+            }
+        }
+    } 
     
 }
