@@ -210,61 +210,217 @@
     }   
 
     @media screen and (max-width: 1660px) {
-        
-       
         .lightsOut { 
-             
 
            .lightsText{
-            
                 h3 {
                     font-size: 28px;  
                 }
-
                 p {
                     font-size: 22px;
                 }
             }
         }
-
         .kanban { 
-             
 
             .kanbanText{
-             
                  h3 {
                      font-size: 28px;  
                  }
- 
                  p {
                      font-size: 22px;
                  }
              }
          }
-
          .quality { 
-             
 
             .qualityText{
-             
                  h3 {
                      font-size: 28px;  
                  }
- 
                  p {
                      font-size: 22px;
                  }
              }
          }
-       
        .homeDivider {
            h2 {
                font-size: 48px;
-              
-               color: red;
            }
        }
     }
 
+    @media screen and (max-width: 1250px) {
+        .homeDivider {
+            h2 {
+                font-size: 32px;
+            }
+        }
+        .lightsOut { 
+    
+           .lightsText{
+                h3 {
+                    font-size: 24px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+        .kanban { 
+    
+            .kanbanText{
+                h3 {
+                    font-size: 24px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+                span {
+                    font-size: 14px;
+                }
+             }
+         }
+         .quality { 
+    
+            .qualityText{
+                h3 {
+                    font-size: 24px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+                span {
+                    font-size: 14px;
+                }
+             }
+         }
+       
+       }
+    
+       @media screen and (max-width: 850px) {
+        .hero {
+            width: 95%;
+        }
+
+        .homeDivider {
+            h2 {
+                font-size: 32px;
+            }
+        }
+        .lightsOut { 
+            display: flex;
+            flex-direction: column;
+
+            .lightsImage {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                img {
+                    width: 80%;
+                }
+            }
+            
+    
+           .lightsText{
+               width: 100%;
+                h3 {
+                    font-size: 24px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+        }
+        .kanban { 
+            display: flex;
+            flex-direction: column-reverse;
+
+            .kanbanImage {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                img {
+                    width: 80%;
+                }
+            }
+            
+            .kanbanText{
+                width: 100%;
+                h3 {
+                    font-size: 24px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+                span {
+                    font-size: 14px;
+                }
+             }
+         }
+         .quality { 
+            display: flex;
+            flex-direction: column;
+
+            .qualityImage {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                img {
+                    width: 80%;
+                }
+            }
+            .qualityText{
+                width: 100%;
+                h3 {
+                    font-size: 24px;  
+                }
+                p {
+                    font-size: 16px;
+                }
+                button {
+                    height: 40px;
+                    width: 100px;
+                }
+                span {
+                    font-size: 14px;
+                }
+             }
+         }
+       
+       }
+    
+
+    
 }
+
+
+
+
 

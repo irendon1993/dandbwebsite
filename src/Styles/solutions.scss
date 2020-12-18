@@ -9,7 +9,6 @@
         background-color: #279FEA;
 
         h2{
-            
             font-size: 36px;
             padding-left: 10%;
             color: white;
@@ -27,6 +26,9 @@
     }
 
     .solutionsMenu {
+        // display: flex;
+        // flex-wrap: wrap;
+        flex-direction: row;
         width: 75%;
         padding-bottom: 5%;
 
@@ -38,5 +40,30 @@
         }
     }
 
+    @media screen and (max-width:850px) {
+        .solutionsBanner {
+            h2{
+                font-size: 28px;
+            }
+            
+        }
+        
+        .solutionsHero   {
+            width: 75%;
+        }
+        .solutionsMenu {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 90%;
+            }
+            }
+        
+
+    }
     
 }
