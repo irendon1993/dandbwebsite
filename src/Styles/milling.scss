@@ -1,0 +1,23 @@
+.milling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    .millingEquipment {
+        width: 75%;
+        
+        .millingIntro {
+            width: 100%;
+        }
+
+        .millingBody {
+            display: flex;
+            flex-direction: row;
+        }
+    
+    
+    }
+
+
+}
