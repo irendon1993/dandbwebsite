@@ -206,5 +206,65 @@
                 font-size: 18px;
             }
         }
+    
     }   
+
+    @media screen and (max-width: 1660px) {
+        
+       
+        .lightsOut { 
+             
+
+           .lightsText{
+            
+                h3 {
+                    font-size: 28px;  
+                }
+
+                p {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .kanban { 
+             
+
+            .kanbanText{
+             
+                 h3 {
+                     font-size: 28px;  
+                 }
+ 
+                 p {
+                     font-size: 22px;
+                 }
+             }
+         }
+
+         .quality { 
+             
+
+            .qualityText{
+             
+                 h3 {
+                     font-size: 28px;  
+                 }
+ 
+                 p {
+                     font-size: 22px;
+                 }
+             }
+         }
+       
+       .homeDivider {
+           h2 {
+               font-size: 48px;
+              
+               color: red;
+           }
+       }
+    }
+
 }
+
