@@ -36,14 +36,18 @@
             
         .contactInfo {
             width: 40%;
+            padding-left: 10%;
 
             h2 {
                 font-size: 48px;
                 display: flex;
                 justify-content: center;
+                padding-right: 25%;
                 color: #07406B;
             }
             p {
+                // display: flex;
+                // justify-content: center;
                 color: #07406B;
                 font-size: 27px;
             }

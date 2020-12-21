@@ -66,7 +66,7 @@ export function Home() {
                 <img src={Kanban}></img>
                 </div>
             </div> 
-            <div className="quality">
+            <div className="qualityAssurance">
                 <div className ="qualityImage">
                     <img src={Quality}></img>
                 </div>
