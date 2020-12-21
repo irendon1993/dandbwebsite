@@ -16,14 +16,16 @@ header {
     align-content: center;
     align-items: center;
     margin: 0;
+
+    .hamburger {
+      display: none !important;
+    }
   }
   
   li {
     list-style: none;
     display: flex;
   }
-  
-  
   
   .navItem {
     justify-content: center;
@@ -54,6 +56,7 @@ header {
     .contactDiv {
       display: flex;
       align-items: center;
+      
     }
 
     h4 {
@@ -94,5 +97,14 @@ header {
   button {
     text-decoration: none;
   }
+
+  @media screen and (max-width: 900px) {
+    .navItem {
+      display: none;
+    }
+    .hamburger {
+      display:block;
+    }
+  } 
 }
   

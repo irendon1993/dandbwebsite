@@ -6,6 +6,7 @@ import IconAbout from '../Icons/IconAbout.svg';
 import IconSolutions from '../Icons/IconSolutions.svg';
 import IconQuality from '../Icons/IconQuality.svg';
 import IconContact from '../Icons/IconContact.svg';
+import IconHamburger from '../Icons/IconHamburger.svg';
 
 export function Header() {
   return (
@@ -31,9 +32,11 @@ export function Header() {
             </li>
             <li>
               <div className="navItem"><img src={IconQuality} /><Link to="/quality"><h3>Quality</h3></Link></div>
-
+            
             </li>
-           
+            <li>
+              <div className="hamburger"><img src={IconHamburger}/></div>
+            </li>
             <li className="contact">
               <Link to="/contact">
               <div>

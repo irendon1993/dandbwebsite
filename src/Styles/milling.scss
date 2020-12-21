@@ -59,6 +59,7 @@
         
             .leftText {
                 width: 40%;
+                padding-right: 5%;
                 border-right: solid  #279FEA;
             }
 
@@ -72,5 +73,33 @@
     
     }
 
+    @media screen and (max-width:1100px){
+        .millingHero {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width:900px)  {    
+        .millingEquipment{
+            .millingBody {
+                display: flex;
+                   flex-direction: column;
+            
+                .leftText {
+                    width: 100%;
+                    padding-right: 0;
+                    border-right: none;
+                } 
+                
+                .rightText {
+                    width: 100%;
+                }
+            }
+        }
+    }
 
 }

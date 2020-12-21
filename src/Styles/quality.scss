@@ -39,6 +39,7 @@
                 justify-content: center;
                 align-items: center;
                 color:  #07406B;
+                font-size: 36px;
             }
 
             p {
@@ -89,6 +90,7 @@
                     justify-content: center;
                     align-items: center;
                     color:  #07406B;
+                    font-size: 36px;
                 }
     
                 p {
@@ -125,6 +127,7 @@
                     justify-content: center;
                     align-items: center;
                     color:  #07406B;
+                    font-size: 36px;
                 }
     
                 p {
@@ -162,6 +165,7 @@
                     justify-content: center;
                     align-items: center;
                     color:  #07406B;
+                    font-size: 36px;
                 }
     
                 p {
@@ -198,12 +202,14 @@
             flex-direction: column-reverse;
 
             .isoImage{
-               
                 width: 80%;
             }
             .isoText {
-             
                 width: 80%;
+
+                h2 {
+                    font-size: 32px;
+                }
 
                 p {
                     font-size: 22px;
@@ -232,6 +238,10 @@
                 }
                 .keyenceText{
                     width: 90%;
+                    
+                    h2 {
+                        font-size: 32px;
+                    }
                     p {
                         font-size: 20px;
                     }
@@ -254,6 +264,9 @@
                 }
                 .cmmText{
                     width: 90%;
+                    h2 {
+                        font-size: 32px;
+                    }
                     p {
                         font-size: 20px;
                     }
@@ -275,6 +288,9 @@
                 }
                 .measureLinkText{
                     width: 90%;
+                    h2 {
+                        font-size: 32px;
+                    }
                     p {
                         font-size: 20px;
                     }

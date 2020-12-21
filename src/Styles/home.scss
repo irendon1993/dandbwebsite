@@ -304,7 +304,7 @@
                  }
              }
          }
-         .quality { 
+         .qualityAssurance { 
 
             .qualityText{
                  h3 {
@@ -335,7 +335,7 @@
                     font-size: 24px;  
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 button {
                     height: 40px;
@@ -353,7 +353,7 @@
                     font-size: 24px;  
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 button {
                     height: 40px;
@@ -364,14 +364,14 @@
                 }
              }
          }
-         .quality { 
+         .qualityAssurance { 
     
             .qualityText{
                 h3 {
                     font-size: 24px;  
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 button {
                     height: 40px;
@@ -385,17 +385,20 @@
        
        }
     
-       @media screen and (max-width: 850px) {
+       @media screen and (max-width: 1000px) {
         .hero {
-            width: 95%;
+            width: 100%;
         }
 
         .homeDivider {
+            width: 100%;
             h2 {
                 font-size: 32px;
             }
-        }
+        }.features {
+            width: 100%;
         .lightsOut { 
+            width: 100%;
             display: flex;
             flex-direction: column;
 
@@ -410,12 +413,12 @@
             
     
            .lightsText{
-               width: 100%;
+               width: 90%;
                 h3 {
                     font-size: 24px;  
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 button {
                     height: 40px;
@@ -440,12 +443,12 @@
             }
             
             .kanbanText{
-                width: 100%;
+                width: 90%;
                 h3 {
                     font-size: 24px;  
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 button {
                     height: 40px;
@@ -456,7 +459,7 @@
                 }
              }
          }
-         .quality { 
+         .qualityAssurance { 
             display: flex;
             flex-direction: column;
 
@@ -469,12 +472,12 @@
                 }
             }
             .qualityText{
-                width: 100%;
+                width: 90%;
                 h3 {
                     font-size: 24px;  
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 button {
                     height: 40px;
@@ -487,7 +490,7 @@
                 
                 }
                 .push-button-3d {
-                    box-shadow: 0 4px #3BA8EC;
+                    box-shadow: 0 4px #0F6195;
                     color: #5e4800;
                     background-color: #279FEA;
                     text-transform: uppercase;
@@ -500,13 +503,13 @@
                 }
                 
                 .push-button-3d:active {
-                    box-shadow: 0 1px #3BA8EC;
+                    box-shadow: 0 1px #0F6195;
                     transform: translateY(3px);
                 }
                 
              }
          }
-       
+        }
        }
     
 
