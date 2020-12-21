@@ -239,6 +239,48 @@
                 }
                     
             }
+            .cmm {
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                .cmmImage {
+                    width: 90%;
+                    img{
+                        padding-left: 0;
+                    }
+                    
+                }
+                .cmmText{
+                    width: 90%;
+                    p {
+                        font-size: 20px;
+                    }
+                    
+                }
+            }
+            .measureLink {
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                .measureLinkImage {
+                    width: 90%;
+                    img{
+                        padding-left: 0;
+                    }
+                    
+                }
+                .measureLinkText{
+                    width: 90%;
+                    p {
+                        font-size: 20px;
+                    }
+                    
+                }
+            }
         }
     }    
     
