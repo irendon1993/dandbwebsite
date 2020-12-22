@@ -5,8 +5,16 @@
 @import 'quality';
 @import 'contact';
 @import 'milling';
+@import 'turning';
 
+* {
+  box-sizing: border-box;
+}
 
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 html {
     background-color: #07406B;

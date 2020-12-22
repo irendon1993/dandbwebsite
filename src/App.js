@@ -18,7 +18,7 @@ import {Wire} from "./Pages/Wire"
 export function App() {
 
   return (
-    <main>
+    <main className="App" id="outer-container">
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
