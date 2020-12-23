@@ -38,15 +38,7 @@ export function Header() {
               <div className="hamburger"><img src={IconHamburger}/></div>
             </li>
             <li className="contact">
-              <Link to="/contact">
-              <div>
-                <div className="contactDiv">
-                  <img src={IconContact} />
-                  <h4>Contact Us</h4>
-                </div>
-                <h4><span>941-123-4567</span></h4>
-              </div>
-              </Link>
+              
             </li>
           </ul>
         </nav>

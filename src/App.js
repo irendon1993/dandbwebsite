@@ -13,6 +13,7 @@ import {Milling} from './Pages/Milling'
 import {Turning} from "./Pages/Turning"
 import {Laser} from "./Pages/Laser"
 import {Wire} from "./Pages/Wire"
+import Navbar from './Components/Navbar.js'
 
 
 export function App() {
@@ -20,6 +21,7 @@ export function App() {
   return (
     <main className="App" id="outer-container">
       <Header />
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
