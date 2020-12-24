@@ -20,11 +20,22 @@ export function Solutions() {
                 <img src={SolutionsBanner}/>
             </section>
             <section className="solutionsMenu">
-                <Link to="/milling"><img src={MillingItem}></img></Link>
-                <Link to="/turning"><img src={TurningItem}></img></Link>
-                <Link to="/laser"><img src={LaserItem}></img></Link>
-                <Link to="/wire"><img src={WireItem}></img></Link>
-                
+                <div className="topMenu">
+                    <div>
+                        <Link to="/milling"><img src={MillingItem}></img></Link>
+                    </div>
+                    <div>
+                        <Link to="/turning"><img src={TurningItem}></img></Link>
+                    </div>
+                </div>
+                <div className="bottomMenu">
+                    <div>
+                        <Link to="/laser"><img src={LaserItem}></img></Link>
+                    </div>
+                    <div>
+                        <Link to="/wire"><img src={WireItem}></img></Link>
+                    </div>
+                </div>
             </section>
            
         </div>
