@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import { Button } from "./Button"
+
 import './Navbar.scss'
 import Logo from '../Logos/DBdesktopCopy.jpg';
 import IconHome from '../Icons/IconHome.svg';
@@ -28,24 +28,20 @@ class Navbar extends Component {
                 <li>
               <div className="navItem"><img src={IconHome} /><Link to="/"><h3 onClick={this.handleClick}>Home</h3></Link></div>
             </li>
-            
-              <li>
-                <div className="navItem"><img src={IconAbout} /><Link to="/about"><h3 onClick={this.handleClick}>About</h3></Link></div>
-              </li>
-            
-            
             <li>
               <div className="navItem"><img src={IconSolutions} /><Link to="/solutions"><h3 onClick={this.handleClick}>Solutions</h3></Link></div>
             </li>
-            
             <li>
               <div className="navItem"><img src={IconQuality} /><Link to="/quality"><h3 onClick={this.handleClick}>Quality</h3></Link></div>
             </li>
             <li>
+                <div className="navItem"><img src={IconAbout} /><Link to="/about"><h3 onClick={this.handleClick}>About</h3></Link></div>
+              </li>
+            <li>
             <div className="navItem"><img src={IconContact} /><Link to="/contact"><h3 onClick={this.handleClick}>Contact Us</h3></Link></div>
             </li>
                 </ul>
-                {/* <Button></Button> */}
+                
             </nav>
         )
     }

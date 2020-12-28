@@ -8,16 +8,8 @@
 }
 
 .navbar-logo {
-    color: #fff;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    display: flex;
-    
-    /* margin-left: 20px; */
     cursor: pointer;
-    /* width: 5%; */
-    /* height: 100%;     */
+   
     img {
         float: left;
         height: 80px;
@@ -32,11 +24,10 @@
         flex-direction: row;
         font-size: 28px;
        
-
         img {
             width: 40px;
         }
-        
+
         a:visited { text-decoration: none; color: white; }
         a:link { text-decoration:none;}
         a:hover { color:#279FEA; }
@@ -54,7 +45,7 @@
     grid-gap: 30px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 80vw;
     justify-content: end;
     margin-right: 2rem;
 }
@@ -87,13 +78,13 @@
 
 @media screen and (max-width: 1500px) {
     .navItem {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .navItem {
-        font-size: 14px;
+        font-size: 20px;
     }
 }
 
