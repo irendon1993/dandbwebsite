@@ -21,18 +21,18 @@ export function Solutions() {
             </section>
             <section className="solutionsMenu">
                 <div className="topMenu">
-                    <div>
+                    <div className="milling">
                         <Link to="/milling"><img src={MillingItem}></img></Link>
                     </div>
-                    <div>
+                    <div className="turning">
                         <Link to="/turning"><img src={TurningItem}></img></Link>
                     </div>
                 </div>
                 <div className="bottomMenu">
-                    <div>
+                    <div className="laser">
                         <Link to="/laser"><img src={LaserItem}></img></Link>
                     </div>
-                    <div>
+                    <div className ="wire">
                         <Link to="/wire"><img src={WireItem}></img></Link>
                     </div>
                 </div>
