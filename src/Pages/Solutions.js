@@ -37,7 +37,6 @@ export function Solutions() {
                     </div>
                 </div>
             </section>
-           
         </div>
     );
 }

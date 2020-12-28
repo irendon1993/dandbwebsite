@@ -20,7 +20,7 @@ export function App() {
 
   return (
     <main className="App" id="outer-container">
-      <Header />
+      {/* <Header /> */}
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
