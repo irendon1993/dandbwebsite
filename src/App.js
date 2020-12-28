@@ -2,17 +2,17 @@
 import './Styles/main.scss'
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import { Header } from './Components/Header.js'
-import {Footer} from './Components/Footer.js'
-import { Home } from './Pages/Home'
-import { About } from './Pages/About'
-import {Solutions} from './Pages/Solutions'
-import {Quality} from "./Pages/Quality"
-import {Contact} from "./Pages/Contact"
-import {Milling} from './Pages/Milling'
-import {Turning} from "./Pages/Turning"
-import {Laser} from "./Pages/Laser"
-import {Wire} from "./Pages/Wire"
+
+import {Footer} from './Components/Footer.jsx'
+import { Home } from './Pages/Home.jsx'
+import { About } from './Pages/About.jsx'
+import {Solutions} from './Pages/Solutions.jsx'
+import {Quality} from "./Pages/Quality.jsx"
+import {Contact} from "./Pages/Contact.jsx"
+import {Milling} from './Pages/Milling.jsx'
+import {Turning} from "./Pages/Turning.jsx"
+import {Laser} from "./Pages/Laser.jsx"
+import {Wire} from "./Pages/Wire.jsx"
 import Navbar from './Components/Navbar.jsx'
 
 
@@ -20,7 +20,7 @@ export function App() {
 
   return (
     <main className="App" id="outer-container">
-      {/* <Header /> */}
+     
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
