@@ -143,6 +143,9 @@
     } 
 
     @media screen and (max-width: 900px) {
+        .aboutBanner {
+            width: 100%;
+        }
         .dnbTop {
             flex-direction: column;
 

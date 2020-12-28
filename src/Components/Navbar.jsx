@@ -7,6 +7,7 @@ import IconHome from '../Icons/IconHome.svg';
 import IconAbout from '../Icons/IconAbout.svg';
 import IconSolutions from '../Icons/IconSolutions.svg';
 import IconQuality from '../Icons/IconQuality.svg';
+import IconContact from '../Icons/IconContact.svg';
 
 
 class Navbar extends Component {
@@ -19,7 +20,7 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <div className="navbar-logo"><img src={Logo}></img></div>
+                <div className="navbar-logo"><Link to="/"><img src={Logo}></img></Link></div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -36,11 +37,15 @@ class Navbar extends Component {
             <li>
               <div className="navItem"><img src={IconSolutions} /><Link to="/solutions"><h3 onClick={this.handleClick}>Solutions</h3></Link></div>
             </li>
+            
             <li>
               <div className="navItem"><img src={IconQuality} /><Link to="/quality"><h3 onClick={this.handleClick}>Quality</h3></Link></div>
             </li>
+            <li>
+            <div className="navItem"><img src={IconContact} /><Link to="/contact"><h3 onClick={this.handleClick}>Contact Us</h3></Link></div>
+            </li>
                 </ul>
-                <Button></Button>
+                {/* <Button></Button> */}
             </nav>
         )
     }

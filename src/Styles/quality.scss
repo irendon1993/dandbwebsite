@@ -217,7 +217,9 @@
             }
         }
         .precisionBanner{
-            width: 90%;
+            width: 100%;
+            // display: flex;
+            // justify-content: center;
         }
         .instruments{
             width: 90%;
@@ -300,4 +302,15 @@
         }
     }    
     
+    @media screen and (max-width: 800px ) {
+        .precisionBanner {
+            
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                padding-left: 0;
+            }
+        }
+    }
 }

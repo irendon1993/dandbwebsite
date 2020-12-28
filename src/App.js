@@ -13,7 +13,7 @@ import {Milling} from './Pages/Milling'
 import {Turning} from "./Pages/Turning"
 import {Laser} from "./Pages/Laser"
 import {Wire} from "./Pages/Wire"
-import Navbar from './Components/Navbar.js'
+import Navbar from './Components/Navbar.jsx'
 
 
 export function App() {
