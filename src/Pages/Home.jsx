@@ -35,7 +35,7 @@ export function Home() {
                     shifts D & B's skilled machinists each monitor fromone to four machines and chart to accuracy parts
                     being produced using SPC.
                 </p>
-                <button className="push-button-3d"><span>Learn More</span></button>
+                <Link to="/solutions"><button className="push-button-3d"><span>Learn More</span></button></Link>
                 </div>
             </div>
             <div className="kanban">
@@ -60,7 +60,7 @@ export function Home() {
                     our Kanban clients.
                 </p>
                 
-                <button className="push-button-3d"><span>Learn More</span></button>
+                <Link to="/solutions"><button className="push-button-3d"><span>Learn More</span></button></Link>
                 </div>
                 <div className="kanbanImage">
                 <img src={Kanban}></img>
@@ -82,7 +82,7 @@ export function Home() {
                         of the quality assurance process. Our complete line
                         of inspection equipment is calibrated and certified.
                     </p>
-                    <button className="push-button-3d"><span>Learn More</span></button>
+                    <Link to="/quality"><button className="push-button-3d"><span>Learn More</span></button></Link>
                 </div>
                 
             </div>
