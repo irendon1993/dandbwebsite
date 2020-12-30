@@ -23,12 +23,13 @@
         align-items: center;
         flex-direction: row;
         font-size: 28px;
-        color: #fff;
+        
        
         img {
             width: 40px;
         }
 
+        a { color: white;}
         a:visited { text-decoration: none; color: white; }
         a:link { text-decoration:none;}
         a:hover { color:#279FEA; }
