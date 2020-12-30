@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.scss'
 import Logo from '../Logos/DBdesktopCopy.jpg';
 import IconHome from '../Icons/IconHome.svg';
-import IconAbout from '../Icons/IconAbout.svg';
+// import IconAbout from '../Icons/IconAbout.svg';
 import IconSolutions from '../Icons/IconSolutions.svg';
 import IconQuality from '../Icons/IconQuality.svg';
 import IconContact from '../Icons/IconContact.svg';
@@ -34,9 +34,9 @@ class Navbar extends Component {
             <li>
               <div className="navItem"><img src={IconQuality} /><Link to="/quality"><h3 onClick={this.handleClick}>Quality</h3></Link></div>
             </li>
-            <li>
+            {/* <li>
                 <div className="navItem"><img src={IconAbout} /><Link to="/about"><h3 onClick={this.handleClick}>About</h3></Link></div>
-              </li>
+              </li> */}
             <li>
             <div className="navItem"><img src={IconContact} /><Link to="/contact"><h3 onClick={this.handleClick}>Contact Us</h3></Link></div>
             </li>

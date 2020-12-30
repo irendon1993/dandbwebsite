@@ -29,7 +29,7 @@ export function Home() {
                     aluminum alloys, plastics and other non-ferrous materials.
                 </p>
 
-                <p>
+                <p className="smallP">
                     D & B Machine uses automated parts loaders, automatic tool changers and computer controls
                     that allow machine tools to operate around the clock, at times totally unattended. Operating two
                     shifts D & B's skilled machinists each monitor fromone to four machines and chart to accuracy parts
