@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HeroVideo from '../Videos/VideoHomeHero.mp4'
 import Hero from '../Images/ImageHalter.jpg' 
 import LightsOut from '../Images/ImageLightsOut.jpg'
 import Kanban from '../Images/ImageKanban.jpg'
@@ -8,14 +9,21 @@ import Quality from '../Images/ImageQuality.jpg'
 
 
 
-
-
 export function Home() {
     return (
         <div className="home">
-            <section className="hero">
-                 <img className="heroImage" src={Hero} />
-            </section>
+            <header class="v-header container">
+                <div class="fullscreen-video-wrap">
+                    <video src={HeroVideo} autoplay="true" loop="true" muted="true">
+                </video>
+                </div>
+                <div class="header-overlay"></div>
+                <div class="header-content text-md-center">
+                    <h1>Quality Engineered Solutions</h1>
+                    <p>Technologically equipped with state of the art milling and turning centers to handle any unique machine part your business may require.</p>
+                    <a class="btn">Find Out More</a>
+                </div>
+            </header>
             <section className="homeDivider">
                 <h2>Solve your manufacturing problems with D&B</h2>
         </section>
