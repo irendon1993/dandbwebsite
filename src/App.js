@@ -14,6 +14,8 @@ import {Turning} from "./Pages/Turning.jsx"
 import {Laser} from "./Pages/Laser.jsx"
 import {Wire} from "./Pages/Wire.jsx"
 import Navbar from './Components/Navbar.jsx'
+import {Test} from "./Pages/Test.jsx";
+import {Test2} from "./Pages/test2.jsx";
 
 
 export function App() {
@@ -32,6 +34,8 @@ export function App() {
         <Route exact path="/turning" component={Turning} />
         <Route exact path="/wire" component={Wire} />
         <Route exact path="/laser" component={Laser} />
+        <Route exact path="/test" component={Test} />
+        <Route exact path="/test2" component={Test2} />
       </Switch>
       <Footer />
     </main>
