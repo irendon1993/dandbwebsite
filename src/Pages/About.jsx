@@ -1,9 +1,29 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import DBBuilding from "../Images/ImageDBBuilding.jpg"
 import IconContact from '../Icons/IconContact.svg';
 import { Link } from 'react-router-dom'
 
 export function About() {
+
+    const [testData, setTestData] = useState([])
+
+  async function fetchTest() {
+    const response = await fetch(
+        'https://strapi-mongo-backend.herokuapp.com/about-pages'
+    )
+  
+    const json = await response.json()
+  
+    setTestData(json)
+  }
+
+  useEffect(()=> {
+    fetchTest()
+  },[])
+
+  console.log(testData)
+
+
     return(
         <div className="about">
             <section className="aboutBanner">
@@ -14,32 +34,15 @@ export function About() {
                     <img src={DBBuilding}></img>
                 </div>
                 <div className="dnbText">
-                    <p>
-                        In 1991, David and Betty Frostad established their precision machine shop,
-                        D & B Machine, Inc., in Sarasota with four objectives: quality, consistency,
-                        timely delivery, and competitive cost.
-                    </p>
-                    <p>
-                        Today, from its 15,000 square-foot, climate-controlled facility on Florida's Gulf 
-                        coast, D & B Machine serves Fortune 500 and international clients in commercial,
-                        military, electronics, hydraulics, marine, lighting, packaging, construction, and
-                        medical equipment industries.
-                    </p>
+                    {testData && testData.map(testData => (<p>{testData.topFirstParagraph}</p>))}
+                    {testData && testData.map(testData => (<p>{testData.topSecondParagraph}</p>))}
                 </div>
             </section>
             <section className="dnbBottom">
                 <div className="dnbSummary">
-                    <p>
-                    We are technologically equipped to manufacture any unique machine part your business may require.
-                    We are a medium to high production facility equipped with state of the art milling and turning centers
-                    to handle our customers needs.
-                    </p>
-                    <p>
-                    You will find the management team at D & B Machine, Inc. to be courteous, friendly and knowledgeable.
-                    One of our able staff is always ready to listen and provide answers to your questions.
-                    </p>
-
-                    <div className="contactButton">
+                    {testData && testData.map(testData => (<p>{testData.bottomFirstParagraph}</p>))}
+                    {testData && testData.map(testData => (<p>{testData.bottomSecondParagraph}</p>))}
+                <div className="contactButton">
                     <Link to="/contact">
                         <div>
                             <div className="contactDiv">
