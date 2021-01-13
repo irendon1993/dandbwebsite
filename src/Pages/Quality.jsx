@@ -8,23 +8,23 @@ import { Link } from 'react-router-dom'
 
 export function Quality() {
 
-    const [testData, setTestData] = useState([])
+    const [qualityData, setQualitytData] = useState([])
 
   async function fetchTest() {
     const response = await fetch(
-        'https://strapi-mongo-backend.herokuapp.com/about-pages'
+        'https://strapi-mongo-backend.herokuapp.com/quality-pages'
     )
   
     const json = await response.json()
   
-    setTestData(json)
+    setQualitytData(json)
   }
 
   useEffect(()=> {
     fetchTest()
   },[])
 
-  console.log(testData)
+  console.log(qualityData)
 
     return(
         <div className="quality">
@@ -34,9 +34,7 @@ export function Quality() {
             <section className="iso">
                 <div className="isoText">
                     <h2>Quality Matters</h2>
-                    <p>D & B Machine is constantly striving to improve our inspection capabilities, 
-                        efficiency and accuracy which bottom line, saves us money—saves you money. 
-                        All inspection equipment is routinely calibrated and certified.</p>
+                    {qualityData && qualityData.map(qualityData => (<p>{qualityData.TopText}</p>))}
                 </div>
                 <div className="isoImage">
                     <img src={IsoImage}></img>
