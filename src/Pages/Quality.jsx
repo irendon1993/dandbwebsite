@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect,useState} from 'react'
 import QualityHero from '../Images/ImageQualityHero.jpg'
 import IsoImage from '../Images/imageISOCert.png'
 import KeyeneceImage from '../Images/ImageKeyence.jpg'
@@ -7,6 +7,25 @@ import MeasureLinkImage from '../Images/ImageMeasureLink.jpg'
 import { Link } from 'react-router-dom'
 
 export function Quality() {
+
+    const [testData, setTestData] = useState([])
+
+  async function fetchTest() {
+    const response = await fetch(
+        'https://strapi-mongo-backend.herokuapp.com/about-pages'
+    )
+  
+    const json = await response.json()
+  
+    setTestData(json)
+  }
+
+  useEffect(()=> {
+    fetchTest()
+  },[])
+
+  console.log(testData)
+
     return(
         <div className="quality">
             <section className="qualityHero">

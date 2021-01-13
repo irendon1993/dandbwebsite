@@ -1,9 +1,30 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react';
 import Map from '../Images/dnbMap.jpg'
 import { Link } from 'react-router-dom'
 
 
+
 export function Contact() {
+
+    const [contactData, setContactData] = useState([])
+
+    async function fetchTest() {
+      const response = await fetch(
+          'https://strapi-mongo-backend.herokuapp.com/contact-pages'
+      )
+    
+      const json = await response.json()
+    
+      setContactData(json)
+    }
+  
+    useEffect(()=> {
+      fetchTest()
+    },[])
+  
+    console.log(contactData)
+  
+
     return(
         <div className="contact">
             <section className="contactBanner">
@@ -11,11 +32,9 @@ export function Contact() {
 
             </section>
             <section className="contactTop">
-                <p>
-                    We want to hear from you! Contact us today to see how D&B can provide
-                    you with manufacturing solutions.
-                </p>
-            
+                <div>
+                {contactData && contactData.map(contactData => (<p>{contactData.contactHeader}</p>))}
+                </div>
             </section>
             <section className="contactBottom">
                 <div className="contactInfo">
