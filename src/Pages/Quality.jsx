@@ -51,14 +51,7 @@ export function Quality() {
                         <h2>
                         Keyence IM-7001 Image Dimension Measurement System
                         </h2>
-                        <p>
-                        IM-7000 series image dimension measurement system,
-                         with newly developed high-speed and high-precision stage,
-                          offers a measurement field of view that is 200mm × 200mm (7.87" × 7.87"). 
-                          Press the button and in 3 seconds users receive 99 measurements on up to 
-                          100 parts with an OK/NG judgment, significantly reducing quality inspection time. 
-                          The IM automatically records and saves results as the measurement is performed.
-                        </p>
+                        {qualityData && qualityData.map(qualityData => (<p>{qualityData.KeyenceParagraph}</p>))}
                     </div>
                     <div className="keyenceImage">
                         <img src={KeyeneceImage}></img>
@@ -68,11 +61,7 @@ export function Quality() {
                 <div className="cmm"> 
                     <div className="cmmText">
                             <h2>Zeiss DuraMax CMM </h2>
-                            <p>A direct computer control measurement station that can automatically inspect
-                                 parts up to 500 x 500 x 500 mm. Our CMM operates with Zeiss’s Calypso software 
-                                 that allows us to import a solid model of the part and then inspect the part to 
-                                 the solid model.
-                            </p>
+                            {qualityData && qualityData.map(qualityData => (<p>{qualityData.cmmParagraph}</p>))}
                     </div>
                     <div className="cmmImage">
                         <img src={CmmImage}></img>
@@ -81,10 +70,7 @@ export function Quality() {
                <div className="measureLink">
                    <div className="measureLinkText">
                         <h2>Measurlink SPC Real Time Software</h2>
-                        <p>The Measurelink SPC Real Time Software with 8-port inspection gauge interface logs
-                             inspection readings completed by operators and inspectors for a specific part. 
-                             Measurelink statistically detects and graphs part variations and trends.
-                        </p>
+                        {qualityData && qualityData.map(qualityData => (<p>{qualityData.measurelinktext}</p>))}
                    </div>
                    <div className="measureLinkImage">
                        <img src={MeasureLinkImage}></img>
