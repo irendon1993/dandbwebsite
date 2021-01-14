@@ -44,6 +44,11 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            
+            p {
+                color:  #07406B;
+                font-size: 24px;
+            }
 
             span {
                     color:  #07406B;
@@ -51,10 +56,7 @@
                     font-weight: bolder;
             }
 
-            p {
-                color:  #07406B;
-                font-size: 27px;
-            }
+            
         
             .turningLeftText {
                 width: 30%;
