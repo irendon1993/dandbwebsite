@@ -33,7 +33,9 @@ export function Home() {
             <header class="v-header container">
                 <div class="fullscreen-video-wrap">
                     <video src={HeroVideo} autoplay="true" loop="true" muted="true">
-                </video>
+                    </video>
+                    <img src={Hero} />
+                    
                 </div>
                 <div class="header-overlay"></div>
                 <div class="header-content text-md-center">
