@@ -256,7 +256,9 @@
                 background-color: #279FEA;
                 justify-content: center;
                 align-items: center;      
-                margin-top: 10px;   
+                margin-top: 10px;
+                
+               
             }
             .push-button-3d {
                 box-shadow: 0 4px #0F6195;
@@ -269,11 +271,15 @@
                 font-weight: 900;
                 cursor: pointer;
                 letter-spacing: 1px;
+
+               
+                
             }
             
             .push-button-3d:active {
                 box-shadow: 0 1px #0F6195;
                 transform: translateY(3px);
+                
             }
 
             span {
