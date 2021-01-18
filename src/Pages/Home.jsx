@@ -32,7 +32,7 @@ export function Home() {
         <div className="home">
             <header class="v-header container">
                 <div class="fullscreen-video-wrap">
-                    <video src={HeroVideo} autoplay="true" loop="true" muted="true">
+                    <video src="https://res.cloudinary.com/dlxtczqfr/video/upload/v1610976657/VideoHomeHero_nfrk5r.mp4" autoplay="true" loop="true" muted="true">
                     </video>
                     <img src={Hero} />
                     
