@@ -41,7 +41,7 @@ export function Home() {
                 <div class="header-content text-md-center">
                     <h1>Quality Engineered Solutions</h1>
                     {homeData && homeData.map(homeData => (<p>{homeData.HeroText}</p>))}
-                    <a class="btn">Find Out More</a>
+                    <Link to="/solutions"><button className="Button"><span>Learn More</span></button></Link>
                 </div>
             </header>
             <section className="homeDivider">
@@ -56,7 +56,7 @@ export function Home() {
                     {homeData && homeData.map(homeData => (<p>{homeData.LightsFirstParagraph}</p>))}
                     {homeData && homeData.map(homeData => (<p>{homeData.LightsSecondParagraph}</p>))}
             
-                <Link to="/solutions"><button className="push-button-3d"><span>Learn More</span></button></Link>
+                <Link to="/solutions"><button className="Button"><span>Learn More</span></button></Link>
                 </div>
             </div>
             <div className="kanban">
@@ -64,7 +64,7 @@ export function Home() {
                     <h3>Kanban Scheduling</h3>
                     {homeData && homeData.map(homeData => (<p>{homeData.KanbanFirstParagraph}</p>))}
                     {homeData && homeData.map(homeData => (<p>{homeData.KanbanSecondParagraph}</p>))}
-                    <Link to="/solutions"><button className="push-button-3d"><span>Learn More</span></button></Link>
+                    <Link to="/solutions"><button className="Button"><span>Learn More</span></button></Link>
                 </div>
                 <div className="kanbanImage">
                     <img src={Kanban}></img>
@@ -78,7 +78,7 @@ export function Home() {
                     <h3>Quality Assurance</h3>
                     {homeData && homeData.map(homeData => (<p>{homeData.QualityFirstParagraph}</p>))}
                     {homeData && homeData.map(homeData => (<p>{homeData.QualitySecondParagraph}</p>))}
-                    <Link to="/quality"><button className="push-button-3d"><span>Learn More</span></button></Link>
+                    <Link to="/quality"><button className="Button"><span>Learn More</span></button></Link>
                 </div>
                 
             </div>
