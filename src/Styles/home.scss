@@ -444,15 +444,26 @@
         .homeDivider {
                padding-left: 10%;
            }
-       }
 
-       .kanbanImage {
+           .lightsImage {
             display: flex;
             align-items: flex-start;
        }
+    
+           .kanbanImage {
+                display: flex;
+                align-items: flex-start;
+           }
+    
+           .qualityImage {
+            display: flex;
+            align-items: flex-start;
+       }
+        
+    }
+       }
 
     
-}
 
 
 
