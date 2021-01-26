@@ -270,11 +270,15 @@
                     font-size: 18px;
                 }
                 button {
-                    height: 40px;
-                    width: 100px;
+                    height: 50px;
+                    width: 120px;
+                    padding: 0 0 0 13px;
+
                 }
                 span {
                     font-size: 14px;
+                    text-align: center;
+                    
                 }
             }
         }
@@ -288,8 +292,9 @@
                     font-size: 18px;
                 }
                 button {
-                    height: 40px;
-                    width: 100px;
+                    height: 50px;
+                    width: 120px;
+                    padding: 0 0 0 13px;
                 }
                 span {
                     font-size: 14px;
@@ -306,8 +311,9 @@
                     font-size: 18px;
                 }
                 button {
-                    height: 40px;
-                    width: 100px;
+                    height: 50px;
+                    width: 120px;
+                    padding: 0 0 0 13px;
                 }
                 span {
                     font-size: 14px;
@@ -347,6 +353,7 @@
     
            .lightsText{
                width: 90%;
+               height: fit-content;
                 h3 {
                     font-size: 24px;  
                 }
@@ -354,12 +361,13 @@
                     font-size: 18px;
                 }
                 button {
-                    height: 40px;
-                    width: 100px;
+                    height: 50px;
+                    width: 120px;
+                    padding: 0 0 0 13px;
                 }
-                span {
-                    font-size: 14px;
-                }
+                // span {
+                //     font-size: 14px;
+                // }
             }
         }
         .kanban { 
@@ -384,8 +392,9 @@
                     font-size: 18px;
                 }
                 button {
-                    height: 40px;
-                    width: 100px;
+                    height: 50px;
+                    width: 120px;
+                    padding: 0 0 0 13px;
                 }
                 span {
                     font-size: 14px;
@@ -413,9 +422,9 @@
                     font-size: 18px;
                 }
                 button {
-                    height: 40px;
-                    width: 100px;
-
+                    height: 50px;
+                    width: 120px;
+                    padding: 0 0 0 13px;
                     
                 }
                 span {
