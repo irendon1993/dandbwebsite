@@ -12,6 +12,7 @@
     line-height: 24px;
     font-family: 'Black Ops One',sans-serif;
     padding-top: 10px;
+    margin-left: 5px;
     // background-color: #99B9DB ;
     // padding: 2px;
     a:link {
@@ -29,7 +30,7 @@
     }
 
     .p1 {
-        font-size: 38px;
+        font-size: 42px;
     }
     // img {
     //     float: left;
@@ -37,6 +38,9 @@
     //     width: 80px;
     // }
 }
+    .p2 {
+        font-size: 18px;
+    }
 
 .navItem {
         display: flex;
@@ -206,5 +210,20 @@
     // Button {
     //     display: none;
     // }
+
+    @media screen and (max-width: 500px)
+    {
+        .navbar-logo {
+           
+            .p1 {
+                font-size: 36px;
+            }
+
+            .p2 {
+                font-size: 14px;
+            }
+        }
+        
+    }
 }
 
