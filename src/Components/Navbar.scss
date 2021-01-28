@@ -9,12 +9,33 @@
 
 .navbar-logo {
     cursor: pointer;
-   
-    img {
-        float: left;
-        height: 80px;
-        width: 80px;
+    line-height: 24px;
+    font-family: 'Black Ops One',sans-serif;
+    padding-top: 15px;
+    // background-color: #99B9DB ;
+    // padding: 2px;
+    a:link {
+        text-decoration: none;
     }
+    a :visited {
+        text-decoration: none; color: #1770ab;
+    }
+
+    P {
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin: 0;
+    }
+
+    .p1 {
+        font-size: 42px;
+    }
+    // img {
+    //     float: left;
+    //     height: 80px;
+    //     width: 80px;
+    // }
 }
 
 .navItem {
