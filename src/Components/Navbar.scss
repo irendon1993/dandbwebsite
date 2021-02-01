@@ -246,3 +246,11 @@
     }
 }
 
+@media screen and (max-width:600px) {
+    .navbar-logo {
+        img {
+            width: 95%;
+        }
+    }
+}
+
