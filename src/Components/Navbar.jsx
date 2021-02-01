@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
 import './Navbar.scss'
-import Logo from '../Logos/DBdesktopCopy.jpg';
+import Logo from '../Images/dnbNewLogo.svg';
 import IconHome from '../Icons/IconHome.svg';
 import IconAbout from '../Icons/IconAbout.svg';
 import IconSolutions from '../Icons/IconSolutions.svg';
@@ -20,7 +20,8 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <div className="navbar-logo"><Link to="/"><p class="p1">D&B</p><p class="p2">Machine Inc</p></Link></div>
+              <div className="navbar-logo"><Link to='/'><img src={Logo}/></Link></div>
+                {/* <div className="navbar-logo"><Link to="/"><p class="p1">D&B</p><p class="p2">Machine Inc</p></Link></div> */}
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
