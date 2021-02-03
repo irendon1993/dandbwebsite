@@ -49,7 +49,7 @@ export function About() {
                                 <img src={IconContact} />
                                 <h4>Contact Us</h4>
                             </div>
-                            <h4><span>941-123-4567</span></h4>
+                            <h4><span>941-355-8002</span></h4>
                         </div>
                      </Link>
                      </div>
