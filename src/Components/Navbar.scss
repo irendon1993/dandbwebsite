@@ -258,8 +258,9 @@
 
 @media screen and (max-width:600px) {
     .navbar-logo {
+        width: 30%;
         img {
-            width: 95%;
+            width: 100%;
         }
     }
 }
