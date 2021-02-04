@@ -39,7 +39,7 @@ class Navbar extends Component {
                 <div className="navItem"><img src={IconAbout} /><Link to="/about"><h3 onClick={this.handleClick}>About</h3></Link></div>
               </li>
             <li>
-            <div className="navItem"><img src={IconContact} /><Link to="/contact"><h3 onClick={this.handleClick}>Contact Us</h3></Link></div>
+            <div className="navItem"><img src={IconContact} /><Link to="/contact"><h3 onClick={this.handleClick}>Contact</h3></Link></div>
             </li>
                 </ul>
                 

@@ -10,6 +10,7 @@
 
 .navbar-logo {
     // width: 10%;
+    width: 15%;
     img {
         margin:5px 0 0 15px;
         height: 70%;
@@ -119,12 +120,20 @@
 }
 
 @media screen and (max-width: 1500px) {
+    .navbar-logo {
+        width: 20%;
+    }
+
     .navItem {
         font-size: 24px;
     }
 }
 
 @media screen and (max-width: 1200px) {
+    .navbar-logo {
+        width: 20%;
+    }
+    
     .navItem {
         font-size: 20px;
     }
@@ -132,6 +141,7 @@
 
 @media screen and (max-width: 960px) {
     .navbar-logo {
+        width: 25%;
         img {
             width: 80%;
         }
