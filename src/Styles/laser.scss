@@ -1,0 +1,97 @@
+.laser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    text-align: center;
+
+    h1 {
+        font-size: 48px;
+        color: #07406B;
+    }
+        .laserBox {
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+
+            .laserHero {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .laserText {
+                width: 50%;
+                color:  #07406B;
+                font-size: 24px;
+            }
+        }
+    
+}
+
+@media screen and (max-width:1440px) {
+    
+    .laser {
+        .laserBox {
+            .laserHero {
+                width: 90%;
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .laserText {
+                font-size: 22px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:1280px) {
+    .laser {
+        .laserBox {
+            .laserHero {
+                width: 50%;
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .laserText {
+                font-size: 18px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:980px) {
+    .laser {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        .laserBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+            .laserHero {
+                width: 100%;
+                img {
+                    width: 90%;
+                }
+            }
+    
+            .laserText {
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
