@@ -5,6 +5,7 @@ import MillingItem from '../Images/ImageCNCMenuItem.jpg'
 import TurningItem from '../Images/ImageTurningMenuItem.jpg'
 import LaserItem from '../Images/ImageLaserMenuItem.jpg'
 import WireItem from '../Images/ImageWireMenuItem.jpg'
+import StampingItem from '../Images/ImageStampingMenuItem.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -28,14 +29,23 @@ export function Solutions() {
                         <Link to="/turning"><img src={TurningItem}></img></Link>
                     </div>
                 </div>
-                <div className="bottomMenu">
+                <div className="middleMenu">
                     <div className="laser">
                         <Link to="/laser"><img src={LaserItem}></img></Link>
                     </div>
                     <div className ="wire">
                         <Link to="/wire"><img src={WireItem}></img></Link>
                     </div>
+                </div >
+                <div className="bottomMenu">
+                    <div className="stamping">
+                        <Link to="/stamping"><img src={StampingItem}></img></Link>
+                    </div>
+                    <div className="hiddenBox">
+                        <img src={StampingItem}></img>
+                    </div>
                 </div>
+                
             </section>
         </div>
     );

@@ -59,8 +59,7 @@
                 padding-right: 5%;
             }
         }
-
-        .bottomMenu {
+        .middleMenu {
             width: 100%;
             display: flex;
             justify-content: center;
@@ -73,6 +72,32 @@
 
             .wire {
                 width: 40%;
+            }
+        
+            img {
+                width: 90%;
+                // height: 250px;
+                padding-top: 5%;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+        }
+
+        .bottomMenu {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+
+            
+            .stamping {
+                width: 40%;
+            }
+
+            .hiddenBox {
+                width: 40%;
+                visibility: hidden;
             }
         
             img {
@@ -100,12 +125,22 @@
             
             }    
 
-            .bottomMenu {
+            .middleMenu {
                 .laser {
                     width: 50%;
                 }
 
                 .wire {
+                    width: 50%;
+                }
+            }
+
+            .bottomMenu {
+                .stamping {
+                    width: 50%;
+                }
+
+                .hiddenBox {
                     width: 50%;
                 }
             }
@@ -153,7 +188,7 @@
                 }
             }
 
-            .bottomMenu {
+            .middleMenu {
                 flex-direction: column;
                 width: 100%;
 
@@ -169,6 +204,19 @@
 
             img {
                 width: 90%;
+            }
+
+            .bottomMenu {
+                flex-direction: column;
+                width: 100%;
+
+                .stamping {
+                    width: 80%;
+                }
+
+                .hiddenBox {
+                    display: none;
+                }
             }
         }
         
