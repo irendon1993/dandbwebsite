@@ -20,30 +20,8 @@ export function Turning() {
                     </div>
                     <div className="turningBody">
                         <div className="turningLeftText">
-                        <span>Matsuura</span>
-                            <p>
-                                1 - Puma TT1800SY Twin-Turret Y Axis Mill/Drill CNC Lathe
-                                Twin Spindle/turret with live tooling on both turrets
-                                upper/lower Y-axis
-
-                            </p>
-                            <p>
-                                1 - Wasino J Turning Center
-                                Gantry loading automated work cell
-                            </p>
-                            <p>
-                                1 - Miyano BNA-42DHY2
-                                2 Spindles \ 1 - 8 station turret Y-Axis
-                            </p>
-                            <p>
-                                1 - Puma TT1800SY Twin-Turret 
-                                Y Axis Mill/Drill CNC Lathe
-                                2-5/8” bar capacity
-                                Edge Patriot 551 bar feeder
-                                High pressure coolant system
-                            </p>
-                        </div>
-                        <div className="turningMiddleText">
+                       
+                            
                             <p>                                          
                                 1 - Nakamura WT100 Twin Spindle,
                                 Twin Turret
@@ -59,22 +37,20 @@ export function Turning() {
                                 Edge Patriot 551 bar feeder
                                 High pressure coolant system
                             </p>
+
                             <p>
-                                1 - Swistek AB20 Swiss Screen Machine
-                                DLE magazine bar feeder
-                                20mm bar capacity
-                                7 axis, live tooling lathe with 
-                                a removable
-                                guide bushing
-                                Twin Spindle
+                                Nakamura WTW Twin Spindle Four Turret 
+                                2" bar capacity, Magazine bar feeder
                             </p>
-                        </div>    
-                        <div className="turningRightText">
-                            <p>
-                                1 - Mori-Seiki NL-2500Y/1250 Turning Center
-                                C & Y Axis Milling
-                                10" Chuck
-                            </p>
+                        </div>
+                        <div className="turningMiddleText">
+                        <p>
+                                1 - Puma TT1800SY Twin-Turret Y Axis Mill/Drill CNC Lathe
+                                Twin Spindle/turret with live tooling on both turrets
+                                upper/lower Y-axis
+                                Halter Load Assistant CNC Automatiom - Robotic 
+
+                            </p>    
                             <p>
                                 2 – Swistek AB42 Swiss Screw Machine
                                 42mm bar capacity
@@ -83,15 +59,37 @@ export function Turning() {
                                 Simultanious 7-axis machining
                             </p>
                             <p>
-                                1 - Mori-Seiki SL-204 Turning Center
-                                2.5" bar capacity, Sub spindle, live tooling
-                                IEMCA VIP80 4’ magazine bar feeder
+                            1 - Swistek AB20 Swiss Screen Machine
+                                DLE magazine bar feeder
+                                20mm bar capacity
+                                7 axis, live tooling lathe with 
+                                a removable
+                                guide bushing
+                                Twin Spindle
+                            </p>
+                           
+                        </div>    
+                        <div className="turningRightText">
+                            
+                            
+                            <p>
+                                1 - Mori-Seiki NL-2500Y/1250 Turning Center
+                                C & Y Axis Milling
+                                10" Chuck
                             </p>
                             <p>
-                                1 - Wasino G07 Gang Tool Lathe with Bar Feed
+                                Doosan Lynx 2100LSYB Y-Axis Mill Drill Turning Center
+                                2.5" 
                             </p>
                             <p>
                                 1 - Mori-Seiki NL-2000 Tool Room Lathe
+                            </p>
+                            <p>
+                            1 - Wasino G07 Gang Tool Lathe with Bar Feed
+                            </p>
+                            <p>
+                                1 - Miyano BNA-42DHY2
+                                2 Spindles \ 1 - 8 station turret Y-Axis
                             </p>
                         </div>
                     </div>
