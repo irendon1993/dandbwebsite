@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export function Laser() {
     
-    const [testData, setLaserData] = useState([])
+    const [laserData, setLaserData] = useState([])
 
   async function laserTest() {
     const response = await fetch(
@@ -20,7 +20,7 @@ export function Laser() {
     laserTest()
   },[])
 
-  console.log(testData)
+  console.log(laserData)
 
     return(
 

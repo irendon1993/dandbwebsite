@@ -1,4 +1,4 @@
-.laser {
+.wire {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,13 +9,13 @@
         font-size: 48px;
         color: #07406B;
     }
-        .laserBox {
+        .wireBox {
             width: 70%;
             display: flex;
             flex-direction: row;
             margin: auto;
 
-            .laserHero {
+            .wireHero {
                 display: flex;
                 justify-content: center;
 
@@ -24,7 +24,7 @@
                 }
             }
 
-            .laserText {
+            .wireText {
                 width: 50%;
                 color:  #07406B;
                 font-size: 24px;
@@ -43,16 +43,16 @@
 
 @media screen and (max-width:1440px) {
     
-    .laser {
-        .laserBox {
-            .laserHero {
+    .wire {
+        .wireBox {
+            .lasewireHero {
                 width: 90%;
                 img {
                     width: 100%;
                 }
             }
     
-            .laserText {
+            .wireText {
                 font-size: 22px;
             }
         }
@@ -61,16 +61,16 @@
 }
 
 @media screen and (max-width:1280px) {
-    .laser {
-        .laserBox {
-            .laserHero {
+    .wire {
+        .wireBox {
+            .wireHero {
                 width: 50%;
                 img {
                     width: 100%;
                 }
             }
     
-            .laserText {
+            .wireText {
                 font-size: 18px;
             }
         }
@@ -79,23 +79,23 @@
 }
 
 @media screen and (max-width:980px) {
-    .laser {
+    .wire {
         display: flex;
         justify-content: center;
         margin: auto;
-        .laserBox {
+        .wireBox {
             display: flex;
             flex-direction: column;
             justify-content: center;
             margin: auto;
-            .laserHero {
+            .wireHero {
                 width: 100%;
                 img {
                     width: 90%;
                 }
             }
     
-            .laserText {
+            .wireText {
                 width: 100%;
                 font-size: 20px;
             }
