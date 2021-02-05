@@ -46,10 +46,6 @@ export function Contact() {
                     </p>
                     <p>
                         Phone: 941.355.8002
-                        
-                    </p>
-                    <p>
-                        Fax: 941.355.4299
                     </p>
                 </div>
                 <div className="map">
