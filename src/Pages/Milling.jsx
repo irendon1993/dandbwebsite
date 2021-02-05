@@ -21,16 +21,15 @@ export function Milling() {
                     </div>
                     <div className="millingBody">
                         <div className="leftText">
-                        <span>Matsuura</span>
                             <p>
-                                1 - Matsuura HPlus 405 Horizontal Machining CTR
-                                12 Pallet Pool. 240 Tool ATC
-                                1,000 psi high pressure coolant and tool management
-                                for lights out operation
+                            3 - Mori-Seiki NH4000 Horizontal Machining Centers
+                                3 Pallet APC – 60 tool ATC
+                                30 h.p. 14,000 rpm spindle
+                                1,000 psi high pressure coolant system
                             </p>
                             <p>
-                                4 - Mori-Seiki NH4000 Horizontal Machining Centers
-                                3 Pallet APC – 60 tool ATC
+                                2 - Mori-Seiki NH4000 Horizontal Machining Centers
+                                3 Pallet APC – 120 tool ATC
                                 30 h.p. 14,000 rpm spindle
                                 1,000 psi high pressure coolant system
                             </p>
@@ -47,19 +46,7 @@ export function Milling() {
                                 1,000 psi high pressure coolant system
                             </p>
                         </div>
-                        <div className="rightText">
-                            <p>           
-                                1 - Brother Speedio R450X1 Machining Center
-                                2 Pallet APC with 22 tool ATC
-                                16,000 RPM Spindle
-                                High PSI
-                            </p>
-                            <p>
-                                1 - Brother Speedio R650X1 Machining Center
-                                2 Pallet APC with 22 tool ATC
-                                16,000 RPM Spindle
-                                High PSI 
-                            </p>
+                        <div className="middleText">
                             <p>
                                 1 - Doosan VC510 Vertical Machining Center
                                 25 h.p. 10,000 rpm spindle with 30 tool ATC
@@ -75,6 +62,29 @@ export function Milling() {
                                 25 h.p. 12,000 rpm spindle with 20 tool ATC
                                 2 Pallet APC 15” x 25"
                             </p>
+                            <p>
+                                Doosan VC 510 Vertical Machining Center 
+                                25 h.p., 10,000, 30 tools ATC, 2 pallet 22" x 33" 
+                            </p>
+                            <p>
+                                Doosan DNM 4500 Vertical Machining Center 
+                                12,000 RPM, 30 tools ATC, 4th axis 
+                            </p>
+                        </div>
+                        <div className="rightText">
+                            <p>           
+                                1 - Brother Speedio R450X1 Machining Center
+                                2 Pallet APC with 22 tool ATC
+                                16,000 RPM Spindle
+                                High PSI
+                            </p>
+                            <p>
+                                1 - Brother Speedio R650X1 Machining Center
+                                2 Pallet APC with 22 tool ATC
+                                16,000 RPM Spindle
+                                High PSI 
+                            </p>
+                           
                             <p>
                                 1 - Miltronics MB20 CNC Tool Room Mill
                             </p>

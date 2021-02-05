@@ -58,14 +58,21 @@
             }
         
             .leftText {
-                width: 40%;
+                width: 30%;
+                padding-right: 5%;
+                border-right: solid  #279FEA;
+            }
+
+            .middleText {
+                width: 30%;
+                padding-left: 5%;
                 padding-right: 5%;
                 border-right: solid  #279FEA;
             }
 
             .rightText {
                 padding-left: 5%;
-                width: 40%;
+                width: 30%;
             }
         }
 
@@ -85,6 +92,16 @@
 
     @media screen and (max-width:900px)  {    
         .millingEquipment{
+
+            .millingIntro {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+
+            }
+
             .millingBody {
                 display: flex;
                    flex-direction: column;
@@ -93,7 +110,14 @@
                     width: 100%;
                     padding-right: 0;
                     border-right: none;
-                } 
+                }
+                
+                .middleText {
+                    width: 100%;
+                    padding-left: 0;
+                    padding-right: 0;
+                    border: none;
+                }
                 
                 .rightText {
                     width: 100%;
