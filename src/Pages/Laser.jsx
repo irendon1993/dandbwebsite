@@ -1,48 +1,59 @@
-import React, {useEffect,useState} from 'react'
-import LaserHero from "../Images/laserHero.jpg"
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from "react";
+import LaserHero from "../Images/laserHero.jpg";
+import { Link } from "react-router-dom";
 
 export function Laser() {
-    
-    const [laserData, setLaserData] = useState([])
+  const [laserData, setLaserData] = useState([]);
 
   async function laserTest() {
     const response = await fetch(
-        'https://strapi-mongo-backend.herokuapp.com/about-pages'
-    )
-  
-    const json = await response.json()
-  
-    setLaserData(json)
+      "https://strapi-mongo-backend.herokuapp.com/about-pages"
+    );
+
+    const json = await response.json();
+
+    setLaserData(json);
   }
 
-  useEffect(()=> {
-    laserTest()
-  },[])
+  useEffect(() => {
+    laserTest();
+  }, []);
 
-  console.log(laserData)
+  console.log(laserData);
 
-    return(
+  return (
+    <div className="laser">
+      <h1>Laser Engraving</h1>
 
-        
-        <div className="laser">
-            <h1>Laser Engraving</h1>
-
-            <div className="laserBox">
-                <div className="laserHero">
-                    <img src={LaserHero} />
-                </div>
-                <div className="laserText">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquid vero repudiandae aspernatur a impedit vitae rem natus itaque totam doloremque nostrum voluptate, ullam optio autem distinctio ab expedita consequatur.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum possimus quidem voluptatum officia dolores deserunt dolorum id cupiditate nisi provident consectetur sed doloremque quas, molestiae reiciendis architecto modi totam cum.
-                    </p>
-                
-                </div>
-            </div>
-            
-            
-            
+      <div className="laserBox">
+        <div className="laserHero">
+          <img src={LaserHero} />
         </div>
-    );
+        <div className="laserText">
+          <p>
+            Laser marking, etching and engraving systems are incredibly
+            versatile pieces of equipment that have countless applications for a
+            diverse range of businesses.
+          </p>
+          <p>
+            TYKMA Electrox marking systems provide:
+            <ol>
+              <li>
+                Laser marking for identification and traceability using direct
+                part marking techniques{" "}
+              </li>
+              <li> 2D data matrix symbology</li>
+              <li> UDI medical marking applications</li>
+              <li> Date coding, serialization and lot control </li>
+              <li>Product branding</li>
+              <li>
+                Laser engraving and etching for many other widespread uses for
+                all companies
+              </li>
+            </ol>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
