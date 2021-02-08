@@ -1,106 +1,101 @@
 .stamping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  text-align: center;
+
+  h1 {
+    font-size: 48px;
+    color: #07406b;
+  }
+  .stampingBox {
+    width: 70%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: auto;
+
+    .stampingHero {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .stampingText {
+      width: 50%;
+      color: #07406b;
+      font-size: 24px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+      p {
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .stamping {
+    .stampingBox {
+      .stampingwireHero {
+        width: 90%;
+        img {
+          width: 100%;
+        }
+      }
+
+      .wireText {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .stamping {
+    .stampingBox {
+      .stampingHero {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+
+      .stampingText {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .stamping {
+    display: flex;
     justify-content: center;
-    background: white;
-    text-align: center;
-
-    h1 {
-        font-size: 48px;
-        color: #07406B;
-    }
-        .stampingBox {
-            width: 70%;
-            display: flex;
-            flex-direction: row;
-            margin: auto;
-
-            .stampingHero {
-                display: flex;
-                justify-content: center;
-                width: 50%;
-
-                img {
-                    width: 100%;
-                }
-            }
-
-            .stampingText {
-                width: 50%;
-                color:  #07406B;
-                font-size: 24px;
-                align-items: center;
-                display: flex;
-             
-               
-                p {  
-                margin: 0;
-                }
-            }
+    margin: auto;
+    .stampingBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      .stampingHero {
+        width: 100%;
+        img {
+          width: 90%;
         }
-    }
-    
+      }
 
-
-@media screen and (max-width:1440px) {
-    
-    .stamping {
-        .stampingBox {
-            .stampingwireHero {
-                width: 90%;
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .wireText {
-                font-size: 22px;
-            }
-        }
+      .stampingText {
+        width: 100%;
+        font-size: 20px;
+      }
     }
-    
-}
-
-@media screen and (max-width:1280px) {
-    .stamping {
-        .stampingBox {
-            .stampingHero {
-                width: 50%;
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .stampingText {
-                font-size: 18px;
-            }
-        }
-    }
-    
-}
-
-@media screen and (max-width:980px) {
-    .stamping {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        .stampingBox {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: auto;
-            .stampingHero {
-                width: 100%;
-                img {
-                    width: 90%;
-                }
-            }
-    
-            .stampingText {
-                width: 100%;
-                font-size: 20px;
-            }
-        }
-    }
-    
+  }
 }
