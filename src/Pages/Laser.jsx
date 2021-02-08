@@ -35,6 +35,7 @@ export function Laser() {
             versatile pieces of equipment that have countless applications for a
             diverse range of businesses.
           </p>
+          <br />
           <p>
             TYKMA Electrox marking systems provide:
             <ol>

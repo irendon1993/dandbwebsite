@@ -1,105 +1,99 @@
 .wire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  text-align: center;
+
+  h1 {
+    font-size: 48px;
+    color: #07406b;
+  }
+  .wireBox {
+    width: 70%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: auto;
+
+    .wireHero {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .wireText {
+      width: 50%;
+      color: #07406b;
+      font-size: 24px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .wire {
+    .wireBox {
+      .lasewireHero {
+        width: 90%;
+        img {
+          width: 100%;
+        }
+      }
+
+      .wireText {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .wire {
+    .wireBox {
+      .wireHero {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+
+      .wireText {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .wire {
+    display: flex;
     justify-content: center;
-    background: white;
-    text-align: center;
-
-    h1 {
-        font-size: 48px;
-        color: #07406B;
-    }
-        .wireBox {
-            width: 70%;
-            display: flex;
-            flex-direction: row;
-            margin: auto;
-
-            .wireHero {
-                display: flex;
-                justify-content: center;
-
-                img {
-                    width: 100%;
-                }
-            }
-
-            .wireText {
-                width: 50%;
-                color:  #07406B;
-                font-size: 24px;
-                align-items: center;
-                display: flex;
-             
-               
-                p {  
-                margin: 0;
-                }
-            }
+    margin: auto;
+    .wireBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      .wireHero {
+        width: 100%;
+        img {
+          width: 90%;
         }
-    }
-    
+      }
 
-
-@media screen and (max-width:1440px) {
-    
-    .wire {
-        .wireBox {
-            .lasewireHero {
-                width: 90%;
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .wireText {
-                font-size: 22px;
-            }
-        }
+      .wireText {
+        width: 100%;
+        font-size: 20px;
+      }
     }
-    
-}
-
-@media screen and (max-width:1280px) {
-    .wire {
-        .wireBox {
-            .wireHero {
-                width: 50%;
-                img {
-                    width: 100%;
-                }
-            }
-    
-            .wireText {
-                font-size: 18px;
-            }
-        }
-    }
-    
-}
-
-@media screen and (max-width:980px) {
-    .wire {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        .wireBox {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: auto;
-            .wireHero {
-                width: 100%;
-                img {
-                    width: 90%;
-                }
-            }
-    
-            .wireText {
-                width: 100%;
-                font-size: 20px;
-            }
-        }
-    }
-    
+  }
 }
