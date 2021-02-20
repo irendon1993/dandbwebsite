@@ -23,7 +23,7 @@ export function Wire() {
 
   return (
     <div className="wire">
-      <h1>Laser Engraving</h1>
+      <h1>Electrical Discharge Machining</h1>
 
       <div className="wireBox">
         <div className="wireHero">
