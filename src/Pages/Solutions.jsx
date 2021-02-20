@@ -11,9 +11,9 @@ import { Link } from "react-router-dom";
 export function Solutions() {
   return (
     <div className="solutions">
-      <section className="solutionsBanner">
+      {/* <section className="solutionsBanner">
         <h2>Solutions</h2>
-      </section>
+      </section> */}
       <section className="solutionsHero">
         <img src={SolutionsBanner} />
       </section>
