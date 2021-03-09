@@ -11,12 +11,10 @@ import { Link } from "react-router-dom";
 export function Solutions() {
   return (
     <div className="solutions">
-      {/* <section className="solutionsBanner">
-        <h2>Solutions</h2>
-      </section> */}
       <section className="solutionsHero">
         <img src={SolutionsBanner} />
       </section>
+
       <section className="solutionsMenu">
         <div className="topMenu">
           <div className="milling">
