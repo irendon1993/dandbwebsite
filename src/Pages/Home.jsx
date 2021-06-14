@@ -30,7 +30,7 @@ export function Home() {
       <header class="v-header container">
         <div class="fullscreen-video-wrap">
           <video
-            src="https://res.cloudinary.com/dvlsv2mpo/video/upload/v1615923351/Sarasota.ManufactoringPlant.2021_zazaar_ikhswi.mp4"
+            src="https://res.cloudinary.com/dfhwhtulr/video/upload/v1623637039/Sarasota.ManufactoringPlant.2021_zazaar_d33hrn.mp4"
             autoplay="true"
             loop="true"
             muted="true"
