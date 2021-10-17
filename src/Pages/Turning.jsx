@@ -11,7 +11,7 @@ export function Turning() {
             <section className="turningEquipment">
                     <div className="turningingIntro">
                         <h2>
-                            TURNING CENTERS
+                            CNC TURNING CENTERS
                         </h2>
                         <p>
                             2, 4, 5 and 7-axis turning centers – auto loading
@@ -39,20 +39,20 @@ export function Turning() {
                             </p>
 
                             <p>
-                                Nakamura WTW Twin Spindle Four Turret 
+                                1 - Nakamura WTW Twin Spindle Four Turret 
                                 2" bar capacity, Magazine bar feeder
                             </p>
                         </div>
                         <div className="turningMiddleText">
                         <p>
-                                1 - Puma TT1800SY Twin-Turret Y Axis Mill/Drill CNC Lathe
+                                2 - Puma TT1800SY Twin-Turret Y Axis Mill/Drill CNC Lathe
                                 Twin Spindle/turret with live tooling on both turrets
                                 upper/lower Y-axis
                                 Halter Load Assistant CNC Automatiom - Robotic 
 
                             </p>    
                             <p>
-                                2 – Swistek AB42 Swiss Screw Machine
+                                1 – Swistek AB42 Swiss Screw Machine
                                 42mm bar capacity
                                 Edge magazine bar feeder
                                 Twin spindle
@@ -67,11 +67,14 @@ export function Turning() {
                                 guide bushing
                                 Twin Spindle
                             </p>
-                           
+                            
                         </div>    
                         <div className="turningRightText">
                             
-                            
+                            <p>
+                            1 - Doosan Puma TT1300SYYB
+                                Twin-turret y-axis mill/drill turning center with opposed Spindles
+                            </p>
                             <p>
                                 1 - Mori-Seiki NL-2500Y/1250 Turning Center
                                 C & Y Axis Milling
