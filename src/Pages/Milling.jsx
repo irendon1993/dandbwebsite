@@ -30,31 +30,27 @@ export function Milling() {
             </p>
 
             <p>
-              1 - Mori-Seiki DuraVertical 5100 Machining Center 25 h.p. 12,000
-              rpm spindle with 30 tool ATC 20” x 40" table
-            </p>
-            <p>
-              2 - Mori-Seiki DuraVertical 5060 Machining Centers 10,000 rpm
+              1 - Mori-Seiki DuraVertical 5060 Machining Centers 10,000 rpm
               spindle with 30 tool ATC Nikken 4th axis 1,000 psi high pressure
               coolant system
             </p>
           </div>
           <div className="middleText">
             <p>
-              1 - Doosan VC510 Vertical Machining Center 25 h.p. 10,000 rpm
-              spindle with 30 tool ATC 2 Pallet APC 22” x 33"
+              1 - Mori-Seiki DuraVertical 5100 Machining Center 25 h.p. 12,000
+              rpm spindle with 30 tool ATC 20” x 40" table
             </p>
             <p>
-              1 - Doosan VC430 Vertical Machining Center 25 h.p. 12,000 rpm
+              2 - Doosan VC430 Vertical Machining Center 25 h.p. 12,000 rpm
               spindle with 40 tool ATC 4th Axis x 2 Pallet APC 19” x 28"
             </p>
             <p>
               1 - Doosan VC360 Vertical Machining Center 25 h.p. 12,000 rpm
               spindle with 20 tool ATC 2 Pallet APC 15” x 25"
             </p>
-           
+
             <p>
-              Doosan DNM 4500 Vertical Machining Center 12,000 RPM, 30 tools
+              1- Doosan DNM 4500 Vertical Machining Center 12,000 RPM, 30 tools
               ATC, 4th axis
             </p>
           </div>
